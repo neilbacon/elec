@@ -8,7 +8,7 @@ The following data is required:
    - the time of day
    - whether you are buying (consumption) or selling (feed-in)
 1. the plan's daily supply charge ($/day)
-1. your consumption and feedin data. This is the energy (kWh) that you bought and sold in each small time interval. Retailers are required to provide this with at least 30 minute granularty, some provide 5 minute granularity.  
+1. your consumption and feedin data. This is the energy (kWh) that you bought and sold in each small time interval. Australian retailers are required to provide this with at least 30 minute granularty, some provide 5 minute granularity.  
 1. dates of public holidays that your tariff plan charges at week end rates 
 
 All the above data needs to be in the form of CSV data files. 
