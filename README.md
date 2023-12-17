@@ -58,11 +58,11 @@ The CSV data files all must have:
  - Consumption Data file, your actual energy consumed (kWh)
  - Daily supply charge file, ($/day), although it's only one number, it's in a CSV file just for consistency
 ### Optional Files
- - Feed-in Tariff file (prices are negative), price ($/kWh)
+ - Feed-in Tariff file, price ($/kWh)
  - Feed-in Data file, your actual energy exported (kWh)
  - Public holiday file, dates charged as Sundays
 
-The first two are only needed if you receive feed-in credits and the third is only required if your tariff charges public holidays as Sundays.
+For feed-in data the price should be negative, alternatively the energy could be negative; it will work as long as the product is negative. The first two are only needed if you receive feed-in credits and the third is only required if your tariff charges public holidays as Sundays.
 ### Preparation of Files
 You'll need to create the tarrif files from information provided by the electrity retailer. When comparing plans make sure to include any available discounts and treat GST consistently.
 
