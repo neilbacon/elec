@@ -1,0 +1,8 @@
+Day Start (0 for Monday),Day End (Exclusive),Time Start,Time End (Exclusive),$/kWh,Daily charge: $1.45398
+0,5,00:00:00,07:00:00,0.26928,Off-peak
+0,5,07:00:00,09:00:00,0.41745,Peak
+0,5,09:00:00,17:00:00,0.35695,Shoulder
+0,5,17:00:00,20:00:00,0.41745,Peak
+0,5,20:00:00,22:00:00,0.35695,Shoulder
+0,5,22:00:00,24:00:00,0.26928,Off-peak
+5,7,00:00:00,24:00:00,0.26928,Off-peak (all weekend and public holidays)
