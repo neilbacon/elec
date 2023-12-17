@@ -44,7 +44,7 @@ All the above data needs to be in the form of CSV data files.
     Consumption $288.12447630999975, Feedin $-175.75396999999998, Supply $174.4776
     Total $286.84810630999976
 
-## CSF Data Files
+## CSV Data Files
 ### Examples
 The data/NB directory contains CSV files with my usage data and plans I'm interested in and NSW public holidays for 2023 and 2024.
 
