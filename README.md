@@ -4,7 +4,7 @@ Apply a Time of Use (TOU) or fixed tariff to your actual electricity data to cal
 
 The following data is required:
 1. the tariff plan, your actual cost ($/kWh) depending on:
-   - the day (generally week day or week end or public holiday charged as week end)
+   - the day (generally week day or week end or public holiday charged as Sunday)
    - the time of day
    - whether you are buying (consumption) or selling (feed-in)
 1. the plan's daily supply charge ($/day)
