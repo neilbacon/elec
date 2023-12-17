@@ -48,7 +48,7 @@ All the above data needs to be in the form of CSV data files.
 ### Examples
 The data/NB directory contains CSV files with my usage data and plans I'm interested in and NSW public holidays for 2023 and 2024.
 
-The data/test directory contains CSV files used in the unit tests.
+The data/test directory contains CSV files used in the unit tests and a spreadsheet used to calculate the expected results.
 ### General Requirements
 The CSV data files all must have:
  - 1 header line (the content of header line columns is not used)
