@@ -14,16 +14,18 @@ The following data is required:
 All the above data needs to be in the form of CSV data files. 
 
 ## Build, Test, Run
-- [Install Rust](https://www.rust-lang.org/tools/install)
+- Install [Rust](https://www.rust-lang.org/tools/install)
 - download the project: `git clone https://github.com/neilbacon/elec.git`
+
 then:
 
+    cd elec
     cargo build
     cargo test
     ./target/debug/elec --help  # get command line help
     
     for i in data/NB/*Tariff; do
-      echo $i;
+      echo -e "\n$i";
       ./target/debug/elec \
         --consumption-tariff $i/consumption.csv \
         --feedin-tariff $i/feedIn.csv \
