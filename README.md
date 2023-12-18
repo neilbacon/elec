@@ -13,6 +13,8 @@ The following data is required:
 
 All the above data needs to be in the form of CSV data files. 
 ## Build, Test, Run
+[Install Rust](https://www.rust-lang.org/tools/install), then:
+
     cargo build
     cargo test
     ./target/debug/elec --help  # get command line help
