@@ -12,8 +12,11 @@ The following data is required:
 1. dates of public holidays that your tariff plan charges at Sunday rates 
 
 All the above data needs to be in the form of CSV data files. 
+
 ## Build, Test, Run
-[Install Rust](https://www.rust-lang.org/tools/install), then:
+- [Install Rust](https://www.rust-lang.org/tools/install)
+- download the project: `git clone https://github.com/neilbacon/elec.git`
+then:
 
     cargo build
     cargo test
