@@ -15,7 +15,7 @@ All the above data needs to be in the form of CSV data files.
 
 ## Issues
  - The [Enket](https://github.com/georgesolomos/enket) project looks to be more comprehensive (found with GitHub search: `nem12 in:readme`)
- - We should use the NEM12 file as supplied, rather than requiring it to be manually split into separate files for consumption and feedin.
+ - We should use the NEM12 file as supplied, rather than requiring it to be manually split into separate files for consumption and feedin. It's just that I'm not sure how tight the standard is and how consistent files from different sources are.
 ## Build, Test, Run
 - Install [Rust](https://www.rust-lang.org/tools/install)
 - download the project: `git clone https://github.com/neilbacon/elec.git`
